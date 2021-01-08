@@ -1,0 +1,6 @@
+Una empresa de vuelos necesita almacenar información sobre los vuelos, los aeropuertos, las aerolineas y los pasajeros de las mismas.
+
+De los vuelos necesitamos almacenar la hora  de salida, la hora de entrada, la duracion del vuelo y la capacidad maxima de pasajeros. También
+de los aeropuertos queremos saber el nombre, el origen del vuelo y el destino, de las aerolineas también necesitamos el nombre de la mismas.
+De los pasajeros queremos saber la edad minima para volar, la edad del pasajero y si necesita asistencia; los pasajeros pueden reservar vuelos.
+Hay que tener en cuenta que un pasajero solo puede viajar con una aerolinea.

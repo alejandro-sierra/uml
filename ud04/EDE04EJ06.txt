@@ -1,0 +1,8 @@
+Queremos crear una aplicación que son ayude a registrar a los alumnos, del 
+alumno queremos saber su nombre, curso y edad; también necesitamos tener un
+recuento de todos los alumnos.
+
+De los alumnos necesitamos que se puedan dar de alta, de baja de y imprimir 
+por pantalla el contenido existente en la base, para facilitar la tarea de 
+copiar determinados datos de un alummno también necesitamos poder copiar
+dicha información.
