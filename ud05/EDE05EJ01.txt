@@ -1,0 +1,19 @@
+Flujo básico:
+1. Insertar la tarjeta.
+2. Validar la tarjeta.
+3. Selecciona retirar dinero.
+4. Insertar el pin.
+5. Insertar cantidad a retirar.
+6. Comprobar la disponibilidad del dinero.
+7. Retirar el dinero.
+8. Realizar otra operación.
+9. Retornar la tarjeta.
+
+ 
+Flujos alternativos:
+1. Tarjeta invalida.
+2. Fondos insuficientes.
+3. Cantidad errónea.
+4. Pin erróneo.
+5. Operación no permitida
+6. Tarjeta atascada.
