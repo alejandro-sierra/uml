@@ -6,6 +6,8 @@ public class Habilidades {
     private int fuerzaHabilidad1;
     private int fuerzaHabilidad2;
     
+//getters y setters
+
 //constructor vacio
     public Habilidades(){
     }   
