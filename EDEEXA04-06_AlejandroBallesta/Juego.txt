@@ -1,0 +1,20 @@
+public static class juego{
+	private String consola;
+	private int maxNumJugadores;
+	private int minNumJugadores;
+
+
+//constructor vacio
+public static juego(){
+
+}
+
+
+public static String muestraJugadoresPosibles(){
+	return false;
+}
+
+
+//getters and setters
+
+}

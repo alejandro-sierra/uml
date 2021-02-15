@@ -1,0 +1,38 @@
+public static class cliente{
+	private nombre String;
+	private int numero;
+	private int maxAlquilerConcurrente = 3;
+
+
+//constructor vacio
+public static cliente(){
+
+}
+
+public static cliente(String nombre,int numero){
+	nombre=this.nombre;
+	numero=this.numero;
+}
+
+
+public static void alquilar(soporte: Soporte){
+
+}
+
+public static boolean tieneAlquilado(soporte: Soporte){
+	return false;
+}
+
+
+public static void devolver(int numSoporte){
+
+}
+
+public static List<soportesAlquilados> listaAlquileres{
+
+}
+
+
+//getters and setters
+
+}

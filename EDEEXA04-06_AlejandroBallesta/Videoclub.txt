@@ -1,0 +1,44 @@
+public class videoclub{
+	private String nombre;
+
+	
+//constructor vacio
+public static videoclub(){
+
+}
+
+private static void inclurProducto(producto: Soporte){
+		
+}
+
+public static void incluirDvd(String titulo, double precio,String idioma,String pantalla){
+
+}
+
+
+public static void incluirJuego(String titulo,double precio,String idioma,String consola,int minJ, int maxJ){
+
+}
+
+
+public static void incluirSocio(String nombre, nit maxAlquilerConcurrentes){
+
+}
+
+
+public static List<productos> listarProductos {
+
+}
+
+public static List<socios> listarSocios{
+
+}
+
+public static void alquilarSocioProducto(int numeroCliente,int numeroSoporte){
+
+}
+	
+
+//getters and setters
+
+}

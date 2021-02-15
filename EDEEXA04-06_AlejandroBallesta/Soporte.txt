@@ -1,0 +1,27 @@
+public class soporte extendet<videoclub>{
+	protect String titulo;
+	private int numero;
+	private double precio;
+
+//constructor vacio
+public static soporte(){
+
+}
+
+
+public static soporte(String titulo){
+
+}
+
+
+public static double getProductoConIva(){
+	return precio + (precio*0.21);
+}
+
+public static void muestraResumen(){
+
+}
+
+//getters and setters
+
+}
