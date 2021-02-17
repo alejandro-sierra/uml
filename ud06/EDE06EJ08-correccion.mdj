@@ -2309,6 +2309,116 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAF3c1njBiSjA/A="
 							}
+						},
+						{
+							"_type": "UMLControlNodeView",
+							"_id": "AAAAAAF3r5weRaLGWXo=",
+							"_parent": {
+								"$ref": "AAAAAAF3c1Ow/iKpJPs="
+							},
+							"model": {
+								"$ref": "AAAAAAF3r5weRKLERW0="
+							},
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 416,
+							"top": 1048,
+							"width": 26,
+							"height": 26
+						},
+						{
+							"_type": "UMLControlFlowView",
+							"_id": "AAAAAAF3r5xBk6LLCy0=",
+							"_parent": {
+								"$ref": "AAAAAAF3c1Ow/iKpJPs="
+							},
+							"model": {
+								"$ref": "AAAAAAF3r5xBk6LKzoA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF3r5xBk6LMVLg=",
+									"_parent": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"model": {
+										"$ref": "AAAAAAF3r5xBk6LKzoA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 447,
+									"top": 995,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF3r5xBk6LNZBg=",
+									"_parent": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"model": {
+										"$ref": "AAAAAAF3r5xBk6LKzoA="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 462,
+									"top": 996,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF3r5xBk6LOfgo=",
+									"_parent": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"model": {
+										"$ref": "AAAAAAF3r5xBk6LKzoA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 992,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF3r5xBk6LLCy0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF3r5weRaLGWXo="
+							},
+							"tail": {
+								"$ref": "AAAAAAF3c1hUgCO6YsQ="
+							},
+							"lineStyle": 1,
+							"points": "437:953;429:1047",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF3r5xBk6LMVLg="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF3r5xBk6LNZBg="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF3r5xBk6LOfgo="
+							}
 						}
 					]
 				}
@@ -2417,6 +2527,14 @@
 						"$ref": "AAAAAAF3c1Ow/SKoEDc="
 					},
 					"name": "Meter macarrones al horno"
+				},
+				{
+					"_type": "UMLActivityFinalNode",
+					"_id": "AAAAAAF3r5weRKLERW0=",
+					"_parent": {
+						"$ref": "AAAAAAF3c1Ow/SKoEDc="
+					},
+					"name": "ActivityFinalNode1"
 				}
 			],
 			"edges": [
@@ -2587,6 +2705,19 @@
 					},
 					"target": {
 						"$ref": "AAAAAAF3c1fh3SOZewk="
+					}
+				},
+				{
+					"_type": "UMLControlFlow",
+					"_id": "AAAAAAF3r5xBk6LKzoA=",
+					"_parent": {
+						"$ref": "AAAAAAF3c1Ow/SKoEDc="
+					},
+					"source": {
+						"$ref": "AAAAAAF3c1hUgCO4X8w="
+					},
+					"target": {
+						"$ref": "AAAAAAF3r5weRKLERW0="
 					}
 				}
 			]
