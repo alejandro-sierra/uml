@@ -1,3 +1,8 @@
+package EDE07p2vuelo;
+/**
+ *
+ * @author Alejandro Ballesta Sierras
+ */
 
 import java.util.ArrayList;
 import java.util.List;
@@ -5,11 +10,11 @@ import java.util.Scanner;
 
 public class Manager {
 
-    List<flight> listOfflights;
+    List<Flight> listOfflights;
 
     public Manager() {
 
-        listOfflights = new ArrayList<flight>();
+        listOfflights = new ArrayList<Flight>();
 
     }
 
@@ -21,25 +26,25 @@ public class Manager {
         for (int i = 0; i < size; i++) {
         o = listOfflights.get(i).getOrigin();
         d = listOfflights.get(i).getDestination();
-        seats = listOfflights.get(i).NUMBEROFSEATSLEFT;
-        if ((o.equals(origin) equals true) && (d.equals(destination) === true) and seats > 0) {
-        if (flag) {
-        System.out.println("List of available flights:");
-        flag = false;
+        seats = listOfflights.get(i).getNumberOfSeatsleet();
+        if ((o.equals(origin) == true) && (d.equals(destination) == true)
+                && seats > 0) {
+                if (flag) {
+                System.out.println("List of available flights:");
+                flag = false;
+                }
+            }
         }
-        }
-        }
-        if (flag is true) {
-
+        if (flag == true) {
         }
     }
 
     public void bookSeat(int flightNumber, Passenger p) {
         double price;
-        bool flag = false;
+        boolean flag = false;
         int index = 0, seats, size = listOfflights.size();
-        for (int i < size i++)
-        {if (listOfflights.get(i).flightnumber == flightNumber)
+        for (int i = 0; i < size; i++)
+        {if (listOfflights.get(i).getFlightNumber() == flightNumber)
         {
                 flag = true;
                 index = i;
@@ -47,9 +52,9 @@ public class Manager {
         }
         }
 
-        seats = listOfflights.get(index).getNumberOfSeatsleft();
+        seats = listOfflights.get(index).getNumberOfSeatsleet();
         if (flag == true && (seats > 0))
-            listOfflights.get(index).bookASeat();
+            listOfflights.get(index).Bookaseat();
         else {
         if (flag == true && seats == 0)
             System.out.println("The Flight " + flightNumber + " is full you cannot book a ticket for this flight");
@@ -60,7 +65,7 @@ public class Manager {
 
     public static void main(String[] args) {
         Manager M = new Manager();
-        flight F;
+        Flight F;
         Passenger P;
         Scanner scan1 = new Scanner(System.in);
         Scanner scan2 = new Scanner(System.in);
@@ -89,7 +94,6 @@ public class Manager {
                             default:
                                 System.out.println("You entered an invalid option");
                                 break;
-
             }
 
         }
