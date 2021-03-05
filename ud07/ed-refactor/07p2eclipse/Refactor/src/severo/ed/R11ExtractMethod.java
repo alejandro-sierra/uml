@@ -5,6 +5,11 @@ package severo.ed;
  * @author Alejandro Ballesta Sierras
  */
 
+/**
+*El problema que teniamos aqui es que teniamos el parte del codigo fragmentado y
+*podemos agrupar lo en un metodo nuevo para hacer el codigo mas sencillo y con 
+* la posibilidad de reutilizar dicho metodo.
+*/
 public class R11ExtractMethod {
 
 	private String nombre;
