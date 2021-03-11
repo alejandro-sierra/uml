@@ -8,6 +8,28 @@ package severo.ed;
  *Tenemos una expresion dificil de expresar, por lo que lo separamos en 
  * variables diferentes y hacemos un if con todas.
  */
+
+/*
+package severo.ed;
+
+public class R13ExtractVariable {
+
+	void renderBanner(String platforma, String browser, int resize) {
+		if ((platforma.toUpperCase().indexOf("MAC") > -1) && (browser.toUpperCase().indexOf("IE") > -1)
+				&& estabaInicializada() && resize > 0) {
+			// do something
+		}
+	}
+
+	private boolean estabaInicializada() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
+
+*/
+
 public class R13ExtractVariable {
 
     void renderBanner(String platforma, String browser, int resize) {
