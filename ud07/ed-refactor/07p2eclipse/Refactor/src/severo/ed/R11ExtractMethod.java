@@ -46,8 +46,8 @@ public class R11ExtractMethod {
 	}
 	
 	void imprimirDetalles(){
-			System.out.println("nombre: " + nombre);
-			System.out.println("cantidad: " + getSobrante());
+            System.out.println("nombre: " + nombre);
+            System.out.println("cantidad: " + getSobrante());
 	}
 			
 	private String getSobrante() {

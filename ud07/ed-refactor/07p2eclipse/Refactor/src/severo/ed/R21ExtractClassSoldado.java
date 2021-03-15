@@ -32,11 +32,15 @@ public class R21ExtractClassSoldado {
 */
 
 public class R21ExtractClassSoldado {
-	private int salud;
+    
+    class Soldado(){
+        private int salud;
 	private int danyoArma;
 	private int estadoArma;
-
-	public int getDanyoArma() {
+    }
+        
+        
+	public int DanyoArma(danyoArma,) {
 		return danyoArma * estadoArma / 100;
 	}
 
