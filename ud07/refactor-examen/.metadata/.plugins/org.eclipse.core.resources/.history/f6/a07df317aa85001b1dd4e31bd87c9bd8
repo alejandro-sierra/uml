@@ -1,0 +1,21 @@
+package severo.ed.codeconventions;
+
+import java.util.List;
+
+public class productB implements product {
+
+    public static String InputMatch = "B";
+
+    public productB() {super(50);}
+    public productB(List<Discount> discounts) {
+        super(50, discounts);
+    }
+    public productB(Discount discount) {
+        super(50);
+        this.addDiscount(discount);
+    }
+
+    public productB(int newCost) {
+        super(newCost);
+    }
+}
