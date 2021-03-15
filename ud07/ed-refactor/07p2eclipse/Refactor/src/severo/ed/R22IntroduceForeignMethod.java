@@ -29,8 +29,11 @@ public class R22IntroduceForeignMethod {
 	private Date fechaInforme;
 
 	void sendReport() {
-		Date sigDia = new Date(fechaInforme.getYear(), fechaInforme.getMonth(), fechaInforme.getDate() + 1);
+            Date nextDate = new Date();
+	
+        }
+        public static Date nextDate(Date d){
+            return new Date(fechaInforme.getYear(), fechaInforme.getMonth(), fechaInforme.getDate() + 1);
 		// ...
-
-	}
+        }
 }

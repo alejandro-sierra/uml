@@ -13,12 +13,20 @@ public class R41DecomposeConditional {
 
 	public double condicion(Date date) {
 		double charge;
-		if (date.before(SUMMER_START) || date.after(SUMMER_END)) {
-			charge = quantity * winterRate + winterServiceCharge;
-		} else {
-			charge = quantity * summerRate;
-		}
-		return charge;
-	}
+		
+                if(esVerano(date)){
+                    change = summerChange(quantity);    
+                }
+                else{
+                    change = winterChange(quantity);    
+                }
+
+        public int summerChange(){
+            return quantity * winterRate + winterServiceCharge;
+        }
+        
+        public int winterChange(){
+            return quantity * summerRate;
+        }
 	
 }

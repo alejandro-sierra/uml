@@ -1,8 +1,10 @@
-package severo.ed;
+    package severo.ed;
 
 public class R35ReplaceMagicNumber {
 
+    static final double CONSTANTE_GRAVITACIONAL = 9.81;
+    
 	double energiaPotencial(double masa, double altura) {
-		return masa * altura * 9.81;
+		return masa * altura * CONSTANTE_GRAVITACIONAL;
 	}
 }

@@ -15,5 +15,10 @@ public class R34EncapsulateCollection {
 	public void setPedido(Set<Pedido> pedidos) {
 		this.pedidos = pedidos;
 	}
+//getters and setteres
+
+    public void setPedidos(Set<Pedido> pedidos) {
+        this.pedidos = pedidos;
+    }
 
 }
