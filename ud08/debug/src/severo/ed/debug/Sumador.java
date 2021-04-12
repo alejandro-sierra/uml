@@ -11,7 +11,7 @@ public class Sumador {
 		int impar = 1;
 		int suma = 0;
 
-		while (cantidad >= 0) {
+		while (cantidad > 0) {
 			suma = suma + impar;
 			impar = impar + 2;
 			cantidad--;

@@ -20,6 +20,7 @@ public class AnalizadorPalabras {
 			char ch = palabra.charAt(i);
 			if (ch == palabra.charAt(i + 1))
 				return ch;
+				return 0;
 		}
 		return 0;
 	}
