@@ -6,15 +6,16 @@ public class AnalizadorPalabrasTesterLog {
 		test("missisippi"); // expect: i (not m or s)
 		test("debug"); // expect: 0 (no duplicate letters)
 		test("test"); // expect: t
+		test("contento"); // expect: o (not n or t)
 	}
 
 	public static void test(String s) {
 		AnalizadorPalabras ap = new AnalizadorPalabras(s);
-		char resultado = ap.primerCaracterRepetido();
+		char resultado = ap.primerCaracterMultiple();
 		if (resultado == 0) {
-			System.out.println("No hay caracteres repetidos.");
+			System.out.println("No hay caracteres multiples.");
 		} else {
-			System.out.println("Primer caracter repetido = " + resultado);
+			System.out.println("Primer caracter multiple = " + resultado);
 		}
 	}
 }

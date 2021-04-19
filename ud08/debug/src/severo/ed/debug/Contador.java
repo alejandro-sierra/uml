@@ -24,7 +24,7 @@ public class Contador {
 		this.contar();
 		
 		if (resultado %2 == 0) {
-			//Forzamos una excepcion de tipo ArithmeticException
+			// Forzamos una excepción de tipo ArithmeticException
 			resultado = resultado / (resultado - resultado);
 		}
 	}
