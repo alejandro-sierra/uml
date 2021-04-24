@@ -1,0 +1,12 @@
+abr. 19, 2021 5:42:29 P. M. severo.ed.debug.HolaLogger escribirEnLog
+WARNING: Se ha lanzado una excepción
+abr. 19, 2021 5:42:29 P. M. severo.ed.debug.HolaLogger escribirEnLog
+SEVERE: No se ha podido conectar con la Base de Datos
+abr. 19, 2021 5:42:29 P. M. severo.ed.debug.HolaLogger escribirEnLog
+INFO: El log se ha probado correctamente
+abr. 19, 2021 5:42:36 P. M. severo.ed.debug.HolaLogger escribirEnLog
+WARNING: Se ha lanzado una excepción
+abr. 19, 2021 5:42:36 P. M. severo.ed.debug.HolaLogger escribirEnLog
+SEVERE: No se ha podido conectar con la Base de Datos
+abr. 19, 2021 5:42:36 P. M. severo.ed.debug.HolaLogger escribirEnLog
+INFO: El log se ha probado correctamente
