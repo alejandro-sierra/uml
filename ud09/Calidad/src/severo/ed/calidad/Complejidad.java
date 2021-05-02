@@ -59,9 +59,9 @@ public class Complejidad {
 
 /**
  * Extraemos el metodo del ejrcicio3
- * @param array
+ * @param array de int
  * @param result
- * @return
+ * @return un int
  */
 public int SumaArray(int[] array, int result) {
 	int i;
@@ -76,7 +76,7 @@ public int SumaArray(int[] array, int result) {
 
 /**
  * Extraemos el metodo del ejercicio3
- * @param array
+ * @param array de int
  * @param input
  */
 public void InitArray(int[] array, BufferedReader input) {

@@ -18,7 +18,7 @@ public class Persona {
 	private String email;
 	
 	/**
-	 * Constructor con datos básicos
+	 * Constructor con datos basicos
 	 * @param id identificador del usuario
 	 * @param nombre nombre de la persona
 	 * @param apellidos apellidos de la persona

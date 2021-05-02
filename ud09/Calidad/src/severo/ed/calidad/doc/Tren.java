@@ -1,5 +1,11 @@
 package severo.ed.calidad.doc;
 
+/**
+ * Clase que define el nombre y la velocidad de un tren
+ * @author Alejandro Ballesta Sierras
+ * @version 1.0
+ */
+
 public class Tren {
 
 	private String nombre;
@@ -25,7 +31,7 @@ public class Tren {
 	 * @param menosKMH velocidad a reducir
 	 */
 	public void decelerar(int menosKMH) {
-		comprobraVelocidadMinima(velocidad - menosKMH);
+		comprobarVelocidadMinima(velocidad - menosKMH);
 		velocidad -= menosKMH;
 	}
 
@@ -36,31 +42,54 @@ public class Tren {
 	public boolean estaMoviendo() {
 		return (velocidad != 0);
 	}
-
+	
+	/**
+	 * Metodo que sirve para bajar la velocidad hasta 0
+	 */
 	public void detener() {
 		velocidad = 0;
 	}
 
+	/**
+	 * Son devulve el nombre asignado al tren
+	 * @return nombre asignado
+	 */
 	public String getNombre() {
 		return nombre;
 	}
 
+	/**
+	 * Nos devukve la velocidad actual
+	 * @return velicidad son da la velocidad
+	 */
 	public int getVelocidad() {
 		return velocidad;
 	}
 
+	/**
+	 * Comprueba la velocidad maxima
+	 * @param newSpeed la velocidad maxima que queremos comprobar
+	 */
 	private void comprobarVelocidadMaxima(int newSpeed) {
 		if (newSpeed > MAX_VELOCIDAD) {
-			throw new IllegalArgumentException("No puede ir a m�s de " + MAX_VELOCIDAD + ".");
+			throw new IllegalArgumentException("No puede ir a mas de " + MAX_VELOCIDAD + ".");
 		}
 	}
-
-	private void comprobraVelocidadMinima(int newSpeed) {
+	
+	/**
+	 * Compueba la velocidad minima
+	 * @param newSpeed la velocidad minima que queremos comprobar
+	 */
+	private void comprobarVelocidadMinima(int newSpeed) {
 		if (newSpeed <= 0) {
 			throw new IllegalArgumentException("can't have negative speed.");
 		}
 	}
-
+	
+	/**
+	 * Imprime los datos de la clase
+	 * @return nombre del tren y velocidad actual
+	 */
 	public String toString() {
 		return "[Tren " + nombre + " circula a " + velocidad + " KMH]";
 	}
