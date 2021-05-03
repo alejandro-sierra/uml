@@ -27,7 +27,7 @@ public class TrenTester {
 		/**
 		 * Preguntamos si esta en movimiento
 		 */
-		tren.estaMoviendo();
+		System.out.println("Esta moviendose: " + tren.estaMoviendo());
 		
 		/**
 		 * Reducimos su velocidad en 10 km/h
