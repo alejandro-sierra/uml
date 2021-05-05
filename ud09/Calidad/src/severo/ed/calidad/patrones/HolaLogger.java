@@ -13,11 +13,11 @@ public class HolaLogger {
 	}
 
 	public void escribirEnLog() {
-		LOGGER.config("Mensaje de configuraciónn");
+		LOGGER.config("Mensaje de configuraciï¿½nn");
 		LOGGER.fine("Depurando el programa");
-		LOGGER.warning("Se ha lanzado una excepción");
+		LOGGER.warning("Se ha lanzado una excepciï¿½n");
 		LOGGER.severe("No se ha podido conectar con la Base de Datos");
-		LOGGER.log(Level.FINEST, "Depuraciónn más fina");
+		LOGGER.log(Level.FINEST, "Depuraciï¿½nn mï¿½s fina");
 		LOGGER.log(Level.INFO, "El log se ha probado correctamente");
 	}
 }

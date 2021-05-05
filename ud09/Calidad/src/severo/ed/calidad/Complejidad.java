@@ -36,7 +36,7 @@ public class Complejidad {
 		return result;
 	}
 /**
- *Tenemos una complejidad de 6
+ *Tenemos una complejidad de 7
 */
 	public int ejercicio3(int tam) {
 		int[] array; 

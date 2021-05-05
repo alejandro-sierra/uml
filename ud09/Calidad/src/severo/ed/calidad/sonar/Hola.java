@@ -5,18 +5,19 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.security.SecureRandom;
 import java.util.Random;
 
 class Hola {
+	
+	private SecureRandom aleatorio = new SecureRandom();
 
 	void noProvocaNPE() {
 		Pointers.A a = Pointers.puedeDevolverNull(10);
 		a.metodo();
 	}
-
-	private Random rand = random();  
+ 
 	void puedeProvocarNPE() {
-		var aleatorio = new Random();
 		Pointers.A a = Pointers.puedeDevolverNull(aleatorio.nextInt());
 		a.metodo();
 	}
@@ -40,20 +41,15 @@ class Hola {
 
 	void dosRecursos() throws IOException {
 		FileInputStream fis = null;
-		FileOutputStream fos = null;
-		try {
+		try(OutputStream fos = new FileOutputStream(new File("quizas.txt"));) {
 			fis = new FileInputStream(new File("algo.txt"));
-			fos = new FileOutputStream(new File("quizas.txt"));
 			fos.write(fis.read());
 		} finally {
 			if (fis != null) {
 				fis.close();
 			}
-			if (fos != null) {
-				fos.close();
-			}else {
-				fos.close();
-			}
+
 		}
 	}
 }
+

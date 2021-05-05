@@ -10,9 +10,9 @@ import java.util.logging.SimpleFormatter;
 
 public class LogFactory {
 
-	// Patrón Factory Method
+	// Patrï¿½n Factory Method
 	public static Logger getLogger(String nombreClase) {
-		// Eliminamos la configuración del log raíz
+		// Eliminamos la configuraciï¿½n del log raï¿½z
 		Logger rootLogger = Logger.getLogger("");
 		Handler[] handlers = rootLogger.getHandlers();
 		if (handlers[0] instanceof ConsoleHandler) {

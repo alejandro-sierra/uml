@@ -1,8 +1,13 @@
 package severo.ed.calidad.sonar;
 
 public class Pointers {
+	
+	private Pointers() {}
+	
 	public static class A {
 		public void metodo() {
+			//comentario
+			throw new UnsupportedOperationException();
 		}
 	}
 

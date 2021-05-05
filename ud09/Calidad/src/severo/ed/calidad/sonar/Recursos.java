@@ -5,6 +5,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Recursos {
+	
+	private Recursos() {}
+	
 	public static FileOutputStream creaRecurso() {
 		try {
 			var file = new File("foo.txt");

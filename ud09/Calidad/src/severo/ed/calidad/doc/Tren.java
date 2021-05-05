@@ -12,6 +12,10 @@ public class Tren {
 	private int velocidad;
 	private static final int MAX_VELOCIDAD = 500;
 
+	/**
+	 * Contrucotr de la clase
+	 * @param unNombre nombre del tren
+	 */
 	public Tren(String unNombre) {
 		nombre = unNombre;
 		velocidad = 0;
