@@ -10,7 +10,7 @@ import java.util.logging.SimpleFormatter;
 
 public class LogFactory {
 
-	// Patrónn Factory Method
+	// Patrón Factory Method
 	public static Logger getLogger(String nombreClase) {
 		// Eliminamos la configuración del log raíz
 		Logger rootLogger = Logger.getLogger("");

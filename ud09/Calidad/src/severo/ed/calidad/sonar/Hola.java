@@ -14,10 +14,15 @@ class Hola {
 		a.metodo();
 	}
 
+	private Random rand = random();  
 	void puedeProvocarNPE() {
-		Random aleatorio = new Random();
+		var aleatorio = new Random();
 		Pointers.A a = Pointers.puedeDevolverNull(aleatorio.nextInt());
 		a.metodo();
+	}
+
+	private Random random() {
+		return null;
 	}
 
 	void puedeFallarRecurso() throws IOException {
@@ -29,7 +34,7 @@ class Hola {
 		try {
 			stream.write(12);
 		} finally {
-			// FIXME: should close the stream
+			stream.close();
 		}
 	}
 
@@ -45,6 +50,8 @@ class Hola {
 				fis.close();
 			}
 			if (fos != null) {
+				fos.close();
+			}else {
 				fos.close();
 			}
 		}
