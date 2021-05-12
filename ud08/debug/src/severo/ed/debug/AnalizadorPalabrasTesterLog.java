@@ -1,5 +1,7 @@
 package severo.ed.debug;
 
+import java.io.IOException;
+
 public class AnalizadorPalabrasTesterLog {
 
 	public static void main(String[] args) {
@@ -7,6 +9,11 @@ public class AnalizadorPalabrasTesterLog {
 		test("debug"); // expect: 0 (no duplicate letters)
 		test("test"); // expect: t
 		test("contento"); // expect: o (not n or t)
+		
+		
+		//AnalizadorPalabras ejemplo = new AnalizadorPalabras();
+		//ejemplo.configurarLog();
+		
 	}
 
 	public static void test(String s) {
@@ -18,4 +25,6 @@ public class AnalizadorPalabrasTesterLog {
 			System.out.println("Primer caracter multiple = " + resultado);
 		}
 	}
+	
+	
 }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-12T16:47:28.225824600Z</date>
+  <millis>1620838048225</millis>
+  <nanos>824600</nanos>
+  <sequence>0</sequence>
+  <logger>severo.ed.debug.HolaLogger</logger>
+  <level>CONFIG</level>
+  <class>severo.ed.debug.HolaLogger</class>
+  <method>escribirEnLog</method>
+  <thread>1</thread>
+  <message>Mensaje de configuración</message>
+</record>
+<record>
+  <date>2021-05-12T16:47:28.285664500Z</date>
+  <millis>1620838048285</millis>
+  <nanos>664500</nanos>
+  <sequence>2</sequence>
+  <logger>severo.ed.debug.HolaLogger</logger>
+  <level>WARNING</level>
+  <class>severo.ed.debug.HolaLogger</class>
+  <method>escribirEnLog</method>
+  <thread>1</thread>
+  <message>Se ha lanzado una excepción</message>
+</record>
+<record>
+  <date>2021-05-12T16:47:28.286663100Z</date>
+  <millis>1620838048286</millis>
+  <nanos>663100</nanos>
+  <sequence>3</sequence>
+  <logger>severo.ed.debug.HolaLogger</logger>
+  <level>SEVERE</level>
+  <class>severo.ed.debug.HolaLogger</class>
+  <method>escribirEnLog</method>
+  <thread>1</thread>
+  <message>No se ha podido conectar con la Base de Datos</message>
+</record>
+<record>
+  <date>2021-05-12T16:47:28.287660200Z</date>
+  <millis>1620838048287</millis>
+  <nanos>660200</nanos>
+  <sequence>4</sequence>
+  <logger>severo.ed.debug.HolaLogger</logger>
+  <level>INFO</level>
+  <class>severo.ed.debug.HolaLogger</class>
+  <method>escribirEnLog</method>
+  <thread>1</thread>
+  <message>El log se ha probado correctamente</message>
+</record>
+</log>
+may. 12, 2021 6:51:59 P. M. severo.ed.debug.HolaLogger escribirEnLog
+CONFIG: Mensaje de configuración
+may. 12, 2021 6:51:59 P. M. severo.ed.debug.HolaLogger escribirEnLog
+WARNING: Se ha lanzado una excepción
+may. 12, 2021 6:51:59 P. M. severo.ed.debug.HolaLogger escribirEnLog
+SEVERE: No se ha podido conectar con la Base de Datos
+may. 12, 2021 6:51:59 P. M. severo.ed.debug.HolaLogger escribirEnLog
+INFO: El log se ha probado correctamente
+may. 12, 2021 6:52:11 P. M. severo.ed.debug.HolaLogger escribirEnLog
+CONFIG: Mensaje de configuración
+may. 12, 2021 6:52:11 P. M. severo.ed.debug.HolaLogger escribirEnLog
+WARNING: Se ha lanzado una excepción
+may. 12, 2021 6:52:11 P. M. severo.ed.debug.HolaLogger escribirEnLog
+SEVERE: No se ha podido conectar con la Base de Datos
+may. 12, 2021 6:52:11 P. M. severo.ed.debug.HolaLogger escribirEnLog
+INFO: El log se ha probado correctamente
